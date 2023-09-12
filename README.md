@@ -32,7 +32,7 @@ docker-compose up -d
 ```bash
 docker exec -it {web-container-name} bash
 
-python  manage.py makemigrations app
+python manage.py makemigrations app
 
 python manage.py migrate
 ```
