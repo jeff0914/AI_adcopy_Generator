@@ -8,6 +8,7 @@ router = DefaultRouter()
 router.register(r'adcopy', views.AdCopyViewSet, basename='adcopy')
 
 urlpatterns = [
+    path('admin/', admin.site.urls),
     path('', views.index, name='index'),
     # for djoser_JWT
     path('auth/', include('djoser.urls')),
@@ -15,7 +16,7 @@ urlpatterns = [
     path('accounts/', include('accounts.urls')),
     # for rest_framework
     path('api/', include(router.urls)),
-    path('api/adcopy/', views.ad_copy_api, name='ad_copy_api'),
+    # path('api/adcopy/', views.ad_copy_api, name='ad_copy_api'),
     path('api/token/', TokenObtainPairView.as_view(), name='token_obtain_pair'),
     path('api/token/refresh/', TokenRefreshView.as_view(), name='token_refresh'),
 ]
