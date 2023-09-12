@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+{% block title %}Backend Dashboard{% endblock %}
+{% load static %}
+{% block content %}
+    <div class="jumbotron">
+        <h1>Backend Dashboard</h1>
+        <p>Welcome to your dashboard.</p>
+    </div>
+
+    <div class="container">
+        <h3 id="result"></h3>
+    </div>
+
+   <script src="{% static 'js/dashboard.js' %}"></script>
+
+
+{% endblock %}

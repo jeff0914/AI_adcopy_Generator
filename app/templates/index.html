@@ -1,0 +1,33 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>文案靈感～AI助手</title>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{% static 'stylesheet/styles.css' %}">
+</head>
+<body>
+
+    <header>
+        <h1>Davinci AI #001</h1>
+    </header>
+
+    <main>
+        <form id="adForm">
+            <input type="text" id="userInput" name="userInput" placeholder="Please Enter A Tip Or Keywords">
+            <button type="submit">  Generate >>  </button>
+        </form>
+
+        <section id="resultSection">
+            <h2>Flash Inspiration ! </h2>
+            <textarea id="generatedText" readonly></textarea>
+        </section>
+    </main>
+
+
+    <script src="{% static 'script.js' %}"></script>
+
+</body>
+</html>
