@@ -1,4 +1,4 @@
-# AI_adcopy_Gernerator
+# AI_adcopy_Generator
  
 A Django project that deploys JWT, REST framework, and an AI advertising copy generator on Docker.
 
