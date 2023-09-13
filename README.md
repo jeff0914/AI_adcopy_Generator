@@ -11,7 +11,7 @@ A Django project that deploys JWT, REST framework, and an AI advertising copy ge
 
 1. Clone this repository
 ```bash
-   git clone https://github.com/jeff0914/AI_adcopy_Gernerator.git
+   git clone https://github.com/jeff0914/AI_adcopy_Generator.git
 ```
 2. Navigate to the project directory
 ```bash
