@@ -36,8 +36,10 @@ python manage.py makemigrations app
 
 python manage.py migrate
 ```
-7. Click url And Gernerate It !
-http://localhost:8000/
+7. Go to http://localhost:8000/accounts/  Sign up and login Django JWT account 
+
+8. Click url And Gernerate It !
+http://localhost:8000/ 
 
 ## Usage
 
